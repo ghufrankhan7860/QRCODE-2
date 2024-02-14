@@ -88,12 +88,13 @@ input:active{
     color: #121212;
 }
 
-@media(max-width:600px){
+@media(max-width:500px){
     label{
         font-size: 32px;
     }
 
     input{
-        font-size: 28px;
+        font-size: 26px;
+        width: 85%;
     }
 }
