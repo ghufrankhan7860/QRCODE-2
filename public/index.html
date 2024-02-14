@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>qrCodeGenerator</title>
-    <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <form action="/submit" method="POST">
-        <label for="webUrl">
-            <input type="text" name="webUrl" required>
+    <div class="container">
+        <form action="/submit" method="POST">
+            <label for="websiteLink" >Enter the webiste URL : </label>
+            <input type="text" id="websiteLink" name="webUrl" required>
             <button id="submitBtn" type="submit" value="submit">Generate</button>
-        </label>
-    </form>
-    <!-- <img src="" alt=""> -->
-
+        </form>
+        <img id="imageContainer" src="" alt="">
+    </div>
     <!-- <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
